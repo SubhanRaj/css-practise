@@ -1,0 +1,14 @@
+body {
+    background-color: red;
+}
+#bg{
+    /* background-color: rgba(161, 221, 22, 0.5);
+    background-image: url("https://www.w3schools.com/howto/img_forest.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-attachment: fixed; */
+    background: rgba(161, 221, 22, 0.5) url("https://www.w3schools.com/howto/img_forest.jpg") no-repeat fixed 50% 50%;
+    color: white;
+    text-transform: capitalize;
+}
