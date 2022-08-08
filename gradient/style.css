@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: teal;
+}
+.main {
+    border: 3px solid black;
+    width: 90vw;
+    height: 90vh;
+    overflow: hidden;
+    margin: 25px;
+    box-shadow: 20px 10px 20px black;
+    border-radius: 30px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(red ,aqua);
+}
+.gradient {
+    border-radius: 30px;
+    margin: 25px;
+    height: 90%;
+    width: 90%;
+    border: 2px solid red;
+    box-shadow: 10px 20px 20px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, green 10%, red 20%, blue 70%);
+}
+
+.gradient p {
+    font-size: 75px;
+    text-transform: capitalize;
+    text-shadow: 5px 3px 5px yellow;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-align: center;
+    opacity: 1;
+}
