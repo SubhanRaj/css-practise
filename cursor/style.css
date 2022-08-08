@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+
+}
+
+h1 {
+    margin: 20px;
+}
+
+.cursor {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 1% 5%;
+    padding: 10px 10px;
+    text-align: center;
+    max-width: 75%;
+}
+
+#c1 {
+    cursor: auto;
+}
+
+#c2 {
+    cursor: pointer;
+}
+
+#c3 {
+    cursor: all-scroll;
+}
+
+#c4 {
+    cursor: crosshair
+}
+
+#c5 {
+    cursor: progress
+}
+
+#c6 {
+    cursor: not-allowed
+}
+
+#c7 {
+    cursor: wait;
+}
+
+#c8 {
+    cursor: col-resize;
+}
